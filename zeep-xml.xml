@@ -1,0 +1,15 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header />
+    <SOAP-ENV:Body>
+        <ns3:GetCustomerInfoByNumberResquest xmlns:ns3="http://omantel.om/ordermanagementservice">
+            <OT_EAI_HEADER>
+                <RequestorId>NEP</RequestorId>
+            </OT_EAI_HEADER>
+            <Request>
+                <ReferenceNo>NEP_2591981997258846</ReferenceNo>
+                <externalId>940192</externalId>
+                <externalIdType>200</externalIdType>
+            </Request>
+        </ns3:GetCustomerInfoByNumberResquest>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
